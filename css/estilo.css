@@ -1,0 +1,198 @@
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../imagens/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 113vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+label{
+    display: block;
+}
+/* Container */
+.container{
+    margin: 20px 0 0 95px;
+}
+
+/* Área do Header com menu de navegação, logo e campo de pesqusia */
+header{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+}
+header a:hover{
+    color: #ff7200;
+    transition: all .2s ease-in-out;
+}
+header h1{
+    color: #ff7200;
+    font-size: 35px;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav{
+    margin-left: 9em;
+}
+nav ul li{
+    padding:21px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header .search{
+    display: flex;
+    margin-left: 190px;
+}
+header .search input{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    border-color: #ff7200;
+    border-right: transparent;
+    border-radius: 2px;
+}
+header .search a{
+    height: 20px;
+    background-color: #ff7200;
+    width: 45px;
+    margin-left: -5px;
+    padding: 8px 9px;
+    color: white;
+    border-radius:0px 2px 2px 0px;
+}
+header .search a{
+    text-decoration: none;
+}
+
+/* Container do corpo */
+.containerTwo{
+    width: 90%;
+    display: flex;
+    margin-top: 6em;
+    height: 500px;
+}
+
+/* Primeira área do corpo */
+.mainOne{
+    width: 60%;
+}
+.mainOne h2{
+    font-size: 50px;
+}
+.spanOne{
+    color: white;
+}
+.spanTwo{
+    display: block;
+    color: #ff7200;
+}
+.spanThree{
+    color: white;
+}
+.mainOne p{
+    color: white;
+    font-size: 25px;
+    margin-top: -45px;
+}
+.mainOne a{
+    padding: 8px 30px;
+    border-radius: 13px;
+    background-color: #ff7200;
+    color: black;
+    text-decoration: none;
+}
+.mainOne a:hover{
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+/* Segunda área do corpo com formulário */
+form{
+    margin-left: 13em;
+}
+fieldset{
+    height: 380px;
+    width: 280px;
+    background-color:black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-color: transparent;
+}
+fieldset .labelOne{
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ff7200;
+    background-color: white;
+    padding: 8px 60px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+form input{
+    background:transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #ff7200;
+    width: 210px;
+    height: 30px;
+    margin-top: 10px;
+}
+fieldset .labelTwo{
+    margin-top: 30px;
+    color: black;
+    background-color:#ff7200;
+    padding: 8px 84px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+fieldset .labelTwo:hover{
+    background-color:white;
+    transition: all .2s ease-in-out;
+}
+fieldset .labelThree{
+    color: white;
+    width: 150px;
+    margin-top:30px;
+}
+fieldset .spanFor{
+    margin-left: 33px;
+    width: 50px;
+    display: block;
+    color: #ff7200;
+    margin-bottom: -18px;
+}
+fieldset .spanFive{
+    margin-left: 86px;
+    margin-right: 10px;
+}
+fieldset .spanSix{
+    color: white;
+    display: block;
+}
+fieldset .icons{
+    color: white;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+fieldset .icons img{
+    height: 30px;
+}
